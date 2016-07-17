@@ -20,6 +20,14 @@ npm install --save country-calling-code
 ### Usage
 ```javascript
 import codes from 'country-calling-code';
+
+// codes with the following format:
+[
+  {country: 'Afghanistan', countryCodes: ['93'], isoCode2: 'AF', isoCode3: 'AFG'},
+  {country: 'Albania', countryCodes: ['355'], isoCode2: 'AL', isoCode3: 'ALB'},
+  {country: 'Algeria', countryCodes: ['213'], isoCode2: 'DZ', isoCode3: 'DZA'},
+  ...
+]
 ```
 
 
