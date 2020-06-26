@@ -1,6 +1,6 @@
 {
   "name": "country-calling-code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Country calling codes and iso codes based on countrycode.org",
   "main": "lib/index.js",
   "directories": {
