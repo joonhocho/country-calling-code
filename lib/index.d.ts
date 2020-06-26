@@ -1,7 +1,8 @@
-declare const _default: {
+export interface ICountryCodeItem {
     country: string;
     countryCodes: string[];
     isoCode2: string;
     isoCode3: string;
-}[];
-export default _default;
+}
+export declare const codes: ICountryCodeItem[];
+export default codes;

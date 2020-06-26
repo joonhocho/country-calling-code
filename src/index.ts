@@ -1,5 +1,12 @@
 // https://countrycode.org/
-export default [
+export interface ICountryCodeItem {
+  country: string;
+  countryCodes: string[];
+  isoCode2: string;
+  isoCode3: string;
+}
+
+export const codes: ICountryCodeItem[] = [
   {
     country: 'Afghanistan',
     countryCodes: ['93'],
@@ -1441,3 +1448,5 @@ export default [
     isoCode3: 'ZWE',
   },
 ];
+
+export default codes;
