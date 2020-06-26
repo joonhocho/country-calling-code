@@ -38,11 +38,7 @@
     "prefer-reflect": [
       0,
       {
-        "exceptions": [
-          "apply",
-          "call",
-          "delete"
-        ]
+        "exceptions": ["apply", "call", "delete"]
       }
     ],
     "babel/new-cap": 2,
@@ -52,21 +48,12 @@
     "one-var": [2, "never"],
     "react/jsx-closing-bracket-location": 0,
     "no-undef": 2,
-    "max-nested-callbacks": [
-      2,
-      3
-    ],
+    "max-nested-callbacks": [2, 3],
     "no-empty": 2,
     "no-loop-func": 2,
     "keyword-spacing": 2,
-    "babel/object-shorthand": [
-      2,
-      "always"
-    ],
-    "wrap-iife": [
-      2,
-      "inside"
-    ],
+    "babel/object-shorthand": [2, "always"],
+    "wrap-iife": [2, "inside"],
     "valid-typeof": 2,
     "react/jsx-no-literals": 2,
     "handle-callback-err": 2,
@@ -75,19 +62,13 @@
     "no-process-env": 2,
     "no-irregular-whitespace": 2,
     "block-spacing": 2,
-    "padded-blocks": [
-      2,
-      "never"
-    ],
+    "padded-blocks": [2, "never"],
     "react/jsx-pascal-case": 2,
     "no-empty-pattern": 2,
     "radix": 2,
     "no-undefined": 0,
     "semi-spacing": 2,
-    "eqeqeq": [
-      2,
-      "allow-null"
-    ],
+    "eqeqeq": [2, "allow-null"],
     "no-negated-condition": 2,
     "require-yield": 2,
     "new-cap": 2,
@@ -102,10 +83,7 @@
     "react/prefer-es6-class": 2,
     "no-sequences": 2,
     "babel/generator-star-spacing": 2,
-    "comma-dangle": [
-      2,
-      "always-multiline"
-    ],
+    "comma-dangle": [2, "always-multiline"],
     "no-spaced-func": 2,
     "react/require-extension": 2,
     "no-labels": 2,
@@ -117,10 +95,7 @@
     "no-empty-character-class": 2,
     "constructor-super": 2,
     "no-dupe-class-members": 2,
-    "strict": [
-      2,
-      "never"
-    ],
+    "strict": [2, "never"],
     "no-case-declarations": 2,
     "array-bracket-spacing": 2,
     "react/no-set-state": 2,
@@ -137,10 +112,7 @@
     "no-invalid-regexp": 2,
     "use-isnan": 2,
     "no-new-require": 2,
-    "indent": [
-      2,
-      2
-    ],
+    "indent": [2, 2],
     "react/react-in-jsx-scope": 2,
     "no-native-reassign": 2,
     "no-func-assign": 2,
@@ -161,10 +133,7 @@
     "no-mixed-requires": 2,
     "react/no-did-update-set-state": 2,
     "react/jsx-uses-react": 2,
-    "max-statements": [
-      2,
-      20
-    ],
+    "max-statements": [2, 20],
     "space-unary-ops": [
       2,
       {
@@ -174,14 +143,8 @@
     ],
     "no-lone-blocks": 2,
     "no-debugger": 2,
-    "arrow-parens": [
-      2,
-      "always"
-    ],
-    "space-before-blocks": [
-      2,
-      "always"
-    ],
+    "arrow-parens": [2, "always"],
+    "space-before-blocks": [2, "always"],
     "no-implied-eval": 2,
     "no-useless-concat": 2,
     "no-multi-spaces": 2,
@@ -202,10 +165,7 @@
     "no-cond-assign": 2,
     "no-dupe-keys": 2,
     "import/named": 0,
-    "max-params": [
-      2,
-      4
-    ],
+    "max-params": [2, 4],
     "linebreak-style": 2,
     "react/jsx-sort-props": [
       0,
@@ -237,10 +197,7 @@
     "import/namespace": 2,
     "no-warning-comments": 1,
     "no-delete-var": 2,
-    "babel/arrow-parens": [
-      2,
-      "always"
-    ],
+    "babel/arrow-parens": [2, "always"],
     "no-with": 2,
     "no-extra-parens": 2,
     "no-trailing-spaces": 2,
@@ -258,36 +215,20 @@
     "react/no-unknown-property": 2,
     "no-new": 2,
     "object-curly-spacing": 2,
-    "react/jsx-curly-spacing": [
-      2,
-      "never"
-    ],
+    "react/jsx-curly-spacing": [2, "never"],
     "jsx-quotes": 2,
     "react/no-direct-mutation-state": 2,
     "key-spacing": 2,
-    "no-underscore-dangle": [
-      2,
-      { "allowAfterThis": true }
-    ],
+    "no-underscore-dangle": [2, { "allowAfterThis": true }],
     "new-parens": 2,
     "no-mixed-spaces-and-tabs": 2,
     "no-floating-decimal": 2,
-    "operator-assignment": [
-      2,
-      "always"
-    ],
+    "operator-assignment": [2, "always"],
     "no-shadow-restricted-names": 2,
-    "no-use-before-define": [
-      2,
-      "nofunc"
-    ],
+    "no-use-before-define": [2, "nofunc"],
     "no-useless-call": 2,
     "no-caller": 2,
-    "quotes": [
-      2,
-      "single",
-      "avoid-escape"
-    ],
+    "quotes": [2, "single", "avoid-escape"],
     "react/jsx-handler-names": [
       1,
       {
@@ -318,37 +259,22 @@
     "no-script-url": 2,
     "consistent-this": 2,
     "react/wrap-multilines": 0,
-    "dot-location": [
-      2,
-      "property"
-    ],
+    "dot-location": [2, "property"],
     "no-implicit-coercion": 2,
-    "max-depth": [
-      2,
-      4
-    ],
-    "babel/object-curly-spacing": [
-      2,
-      "never"
-    ],
+    "max-depth": [2, 4],
+    "babel/object-curly-spacing": [2, "never"],
     "no-array-constructor": 2,
     "no-iterator": 2,
     "react/jsx-no-bind": 2,
     "sort-vars": 2,
     "no-var": 2,
     "no-sparse-arrays": 2,
-    "space-before-function-paren": [
-      2,
-      "never"
-    ],
+    "space-before-function-paren": [2, "never"],
     "no-throw-literal": 2,
     "no-proto": 2,
     "default-case": 2,
     "no-inner-declarations": 2,
-    "react/jsx-indent-props": [
-      2,
-      2
-    ],
+    "react/jsx-indent-props": [2, 2],
     "no-new-func": 2,
     "object-shorthand": 2,
     "no-ex-assign": 2,
@@ -359,14 +285,8 @@
     "no-catch-shadow": 2,
     "import/export": 2,
     "no-constant-condition": 2,
-    "complexity": [
-      2,
-      25
-    ],
-    "react/jsx-boolean-value": [
-      2,
-      "never"
-    ],
+    "complexity": [2, 25],
+    "react/jsx-boolean-value": [2, "never"],
     "valid-jsdoc": 2,
     "no-extend-native": 2,
     "react/prop-types": 2,
@@ -374,10 +294,7 @@
     "react/no-multi-comp": 2,
     "no-octal": 2,
     "arrow-spacing": 2,
-    "quote-props": [
-      2,
-      "as-needed"
-    ],
+    "quote-props": [2, "as-needed"],
     "no-div-regex": 2,
     "react/jsx-uses-vars": 2,
     "react/no-danger": 1
@@ -386,19 +303,10 @@
     "ecmascript": 6,
     "jsx": true,
     "import/parser": "babel-eslint",
-    "import/ignore": [
-      "node_modules",
-      "\\.scss$"
-    ],
+    "import/ignore": ["node_modules", "\\.scss$"],
     "import/resolve": {
-      "moduleDirectory": [
-        "node_modules"
-      ]
+      "moduleDirectory": ["node_modules"]
     }
   },
-  "plugins": [
-    "react",
-    "import",
-    "babel"
-  ]
+  "plugins": ["react", "import", "babel"]
 }
