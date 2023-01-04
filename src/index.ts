@@ -896,12 +896,6 @@ export const codes: ICountryCodeItem[] = [
     isoCode3: 'NLD',
   },
   {
-    country: 'Netherlands Antilles',
-    countryCodes: ['599'],
-    isoCode2: 'AN',
-    isoCode3: 'ANT',
-  },
-  {
     country: 'New Caledonia',
     countryCodes: ['687'],
     isoCode2: 'NC',
